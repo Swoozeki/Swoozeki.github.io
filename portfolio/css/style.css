@@ -1,0 +1,77 @@
+body {
+  font-family: Papyrus, fantasy;
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/0/0d/Mira-uv-bow-shock-tail-vertical.jpg");
+  background-attachment:fixed;
+
+  letter-spacing:1px;
+}
+#title{
+  font-size:75px;
+  color:#0A50B7;
+}
+
+#navBar {
+  padding: 20px 0px 10px 0px;
+  background-color:#EEEEEE;
+  border-bottom:2px solid #333333;
+}
+
+.makeInline {
+  display: inline;
+}
+
+.makeInline a {
+  text-decoration: none;
+  padding: 15px 20px 15px 20px;
+  font-size: 20px;
+  border-radius:5px;
+  color:#0A76B7;
+}
+#social-media-links a{
+  background-color: rgb(220,220,220);
+  color:#333333;
+  margin-left:20px;
+}
+#social-media-links a:hover{
+  transform: rotate(360deg);
+  transition:0.5s;
+}
+
+#navItems a:hover {
+  background-color: rgb(220,220,220);
+}
+
+#home-page{
+  text-align:right;
+  background-image:url("http://designbump.com/wp-content/uploads/2015/08/FURNITURE-FOR-LIVING-ROOM.jpg");
+  background-size:100% 700px;
+  background-attachment:fixed;
+}
+#about-page{
+  background-image:url("http://viavox.pl/wp-content/uploads/2015/06/HR-Technology-Trends.jpg");
+  background-size: 100% 700px;
+  background-attachment:fixed;
+}
+#about-page p{
+  color:#0A50B7;
+}
+
+#portfolio-page{
+  text-align:center;
+  color:#0A76B7;
+  background-color: rgb(220,220,220);
+  
+}
+#contact-page{
+  background-image:url("http://www.akfitness.ca/wp-content/uploads/2015/08/contactUs.png");
+  background-repeat:no-repeat;
+  text-align:right;
+  background-color: rgb(220,220,220);
+}
+
+#about-page li{
+  font-size: 18px;
+}
+.thumbnail img{
+  height:200px;
+}
